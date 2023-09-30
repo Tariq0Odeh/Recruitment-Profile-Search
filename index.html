@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="icon.png" />
+    <script src="script.js" defer></script>
+    <title>Engineer's profiles</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Welcome To Engineer's Profiles Website</h1>
+    </header>
+
+    <div class="search-bar">
+      <label for="search">Search Engineer Profiles</label>
+      <input type="search" id="search" profile-search />
+    </div>
+
+    <div class="engineer-profiles" engineer-profiles-container></div>
+    
+    <template engineer-profiles-template>
+      <div class="mini-profile">
+        <div class="header" mini-profile-header></div>
+        <div class="body" mini-profile-body></div>
+        <img src="profile.png" width="60" height="60">
+        <button id="pushButton">Show full profile</button>
+        <button id="hiredButton">Hire?</button>
+      </div>
+    </template>
+
+    <div class="refreshButton">
+      <button id="refreshButton">To Main</button>
+    </div>
+
+    <footer>
+      <p>Copyright © 2023 - 2025. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>

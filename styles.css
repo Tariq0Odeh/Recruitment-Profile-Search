@@ -1,0 +1,100 @@
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer{
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.search-bar{
+  text-align: center;
+  background-color: #ccc;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.search-bar input {
+  border-radius: 8px;
+  color: #000000;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.refreshButton{
+  text-align: center;
+  padding: 15px;
+}
+
+Button {
+  padding: 7px 15px;
+  font-size: 16px;
+  background-color: #293e71;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+button:active {
+  background-color: #d0ebf3;
+} 
+
+#refreshButton{
+  padding: 7px 30px;
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+.engineer-profiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.mini-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #ccc;
+  background-color: rgb(214,135,72);
+  padding: 0.6rem;
+  border-radius: 5px;
+}
+
+.mini-profile > .header {
+  margin-bottom: 0.25rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mini-profile > .body {
+  color: #252424;
+  font-size: 15px;
+}
+
+#hiredButton{
+  padding: 7px 30px;
+  background-color: #252424;
+  color: #CCC;
+  font-weight: bold;
+}
